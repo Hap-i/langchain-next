@@ -56,4 +56,11 @@
   body {
     @apply bg-background text-foreground m-0 h-full;
   }
+  .bot-chat {
+    @apply border py-1 px-3 rounded-r-lg rounded-t-lg w-fit bg-secondary md:max-w-[45%] max-w-[80%] mb-3;
+  }
+
+  .user-chat {
+    @apply border py-1 px-3 rounded-l-lg rounded-t-lg w-fit bg-secondary md:max-w-[45%] max-w-[80%] mb-3;
+  }
 }
